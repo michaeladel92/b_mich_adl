@@ -1,0 +1,12 @@
+========================
+== Functions Document ==
+========================
+
+
+getAllFrom($field,$table,$where = NULL,$orderField,$ordering = "DESC");
+
+$field 		= Name of Column in table OR *
+$table 		= Name of the Table it self
+$Where 		= Default NULL, but can Write SQL Code to Execute EX:[WHERE ColumnName = 1] 
+$orderField = Name of Coulmn you want to ORDER BY 
+$ordering 	= Default equals DESC, you can change it to ASC

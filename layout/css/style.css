@@ -1,0 +1,346 @@
+/**========================================================================================
+ *  										Main Body
+ *========================================================================================*/
+body{
+	background-color:#F4F4F4;
+	font-size: 16px;
+}
+h1{
+	font-size: 55px;
+	margin: 20px 0;
+	font-weight: bold;
+	color:#666;
+}
+/*Start asterisks*/
+.input-container{ /*for asterik */
+	position: relative;
+}
+.asterisk{
+	font-size: 20px;
+	position: absolute;
+	right: 6px;
+	top: 3px;
+	color:#D20707;
+}
+.item_user_form .asterisk{
+	font-size: 29px;
+    position: absolute;
+    right: 19px;
+    top: 5px;
+    color: #D20707;
+}
+/*end asterisks*/
+
+/*start password*/
+.show-pass{
+	position: absolute;
+	top: 6px;
+	right: -30px;
+}
+/*end password*/
+/**========================================================================================
+ *  										Navbar
+ *========================================================================================*/
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar img{
+    width: 60px;
+    max-width: 60px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+
+
+}
+.nav > li > a,
+.navbar-brand{
+	padding: 15px 12px;
+}
+
+.navbar-brand{
+	font-size: 16px;
+}
+.navbar>.container .navbar-brand{
+    margin-left: 58px;
+}
+.navbar-inverse .navbar-nav > .open>a, 
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu{
+	background-color: #3498db;
+}
+
+.dropdown-menu{
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border:none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a{
+	color: #FFF;
+	padding: 10px 15px;
+	
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+	color: #FFF;
+	background-color:#8344ad;	
+}
+
+/**========================================================================================
+ *  										Upper Navbar
+ *========================================================================================*/
+.upper-bar{
+	padding: 10px;
+	background-color: #FFF;
+}
+
+.upper-bar  img{
+	width: 32px;
+	height: 32px;
+}
+
+/**========================================================================================
+ *  										User Login
+ *========================================================================================*/
+.login-page form{
+ max-width: 300px;
+ margin: auto;
+}
+.login-page form input{
+	margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].selected {
+		color: #337ab7;
+}
+.login-page [data-class="signup"].selected {
+		color: #5cb85c;
+}
+
+.login-page h1 span{
+	color: #dcd5d5;
+	cursor: pointer;
+}
+.login-page .signup{
+	display: none;
+}
+.the-error{
+	max-width: 380px;
+	margin: auto;
+}
+.the-error .msg{
+	padding: 10px;
+	text-align: left;
+	border-left: 4px solid #cd6858;
+	background-color: #FFF;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	color: #919191;
+}
+.the-error .error{
+	border-left: 5px solid #cd6858;
+}
+
+.the-error .success{
+	border-left: 5px solid #03f703;
+}
+/**========================================================================================
+ *  										Category for Users
+ *========================================================================================*/
+.item-box{
+	position: relative;
+}
+.item-box .price-tag{
+	background-color: #B4B4B4;
+	padding: 2px 10px;
+	position: absolute;
+	left: 0;
+	top:10px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.item-box .approve-status{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background-color: #b85a5a;
+	color: #FFF;
+	padding: 3px 5px;
+}
+
+.item-box .caption p{
+	height: 44px;
+	max-height: 44px;
+
+}
+
+/**========================================================================================
+ *  										My Profile
+ *========================================================================================*/
+
+.information{
+	margin: 20px 0 0;
+}
+
+.information ul {
+	padding: 0;
+	margin: 0;
+}
+.information ul .profile_list{padding: 10px;}
+.information ul .profile_list:nth-child(odd){background-color: #EEE;}
+.information ul .profile_list span{
+	display: inline-block;
+	width: 120px;
+	font-weight: bold;
+}
+
+.thumbnail .date{
+	text-align: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+}
+
+/**========================================================================================
+ *  										Item Page
+ *========================================================================================*/
+
+.item-info h2{
+	padding: 10px;
+	margin: 0;
+}
+.item-info p{
+	padding: 10px;
+}
+.item-info ul li {
+	padding: 10px;
+}
+.item-info ul .item_list:nth-child(odd){background-color: #9f8e8e2b;}
+.item-info ul .item_list span{
+	display: inline-block;
+	width: 120px;
+	font-weight: bold;
+}
+.custom_hr{
+		border-top:1px solid #c9c9c9; 
+}
+
+.add-comment h3{
+	margin: 0;
+}
+.add-comment textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 120px;
+}
+.comment-box {
+	margin-bottom: 20px;
+}
+.comment-box img {
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+.comment-box .lead{
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+	margin-top: 25px;
+
+}
+.comment-box .lead:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width:15px;
+	border-style: solid;
+	border-color: transparent #e0e0e0 transparent transparent;
+	position: absolute;
+	left: -28px;
+	top: 10px;
+}
+.tags-items a{
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 2px 10px;
+	border-radius: 5px;
+	color: #666;
+	margin-right: 5px;
+}
+/**========================================================================================
+ *  										Index
+ *========================================================================================*/
+#form-buscar >.form-group >.input-group > .form-control {
+    height: 40px;
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn{
+        height: 40px; 
+        font-size: 16px;
+        font-weight: 300; 
+         
+       
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn .glyphicon{
+ margin-right:12px;   
+}    
+
+
+#form-buscar >.form-group >.input-group > .form-control {
+    font-size: 16px;
+    font-weight: 300;
+   
+}
+
+#form-buscar >.form-group >.input-group > .form-control:focus {
+  border-color: #33A444;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+}
+/**========================================================================================
+ *  										footer
+ *========================================================================================*/
+.footer {
+	margin-top: 80px;
+}
+.copyrights{
+margin-top:19px;
+}
+
+footer.container-fluid.text-center.foot {
+    background: #222;
+}
+
+
+
+.white-txt{
+color: #FFF;
+}
+
+
+a.link {
+    color: #008acc;
+    border: 1px #008acc solid;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.link:hover {
+background: #008acc;
+    color: #383838;
+}
+
+.footimg{
+width: 5rem;
+}
+/**========================================================================================
+ *  										End Style
+ *========================================================================================*/
